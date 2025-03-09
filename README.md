@@ -1,7 +1,5 @@
 # Welcome to React Dynamic Render!
 
-Please refer to this technical design for overall architecture and rationale behind the implementation
-
 ## Folder Structure
 
 ```
