@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid black;
+  border-top-width: 0;
+}
+.header {
+  border-bottom: 1px solid black;
+  padding: 16px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.inspector {
+  display: block;
+  padding: 15px;
+}
+.componentSelector {
+  padding: 12px;
+}

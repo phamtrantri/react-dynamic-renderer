@@ -1,0 +1,24 @@
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 24px 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid black;
+}
+.profileImage {
+  width: 48px;
+  height: 48px;
+  border-radius: 80px;
+}
+.exportBtn {
+  background-color: var(--bg-color-black);
+  color: var(--text-color-white);
+  padding: 4px 32px;
+  border-radius: 8px;
+  font-size: 14px;
+}
+.exportBtn:active {
+  opacity: 0.7;
+}

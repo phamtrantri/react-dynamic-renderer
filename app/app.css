@@ -1,0 +1,24 @@
+@import "./variables.css";
+
+:root {
+  font-family: "Inter", ui-sans-serif, system-ui, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.selectedActive {
+  border: 2px solid green !important;
+}
+
+.hoveredActive {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.1);
+}
