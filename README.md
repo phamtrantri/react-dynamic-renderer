@@ -56,7 +56,7 @@ For updating styling, whenever the CSS props is a valid JSON, Web will update th
 
 npm i && npm run dev
 
-access [local](http://localhost:5173/)
+access http://localhost:5173/
 
 ## Test cases
 
