@@ -3,11 +3,7 @@ import styles from "./style.module.css";
 import profileImage from "@assets/images/profile.png";
 import { Link } from "react-router";
 
-interface IProps {
-  onExport?: () => void;
-}
-
-const Header: React.FC<IProps> = () => {
+const Header: React.FC = () => {
   return (
     <header className={styles.wrapper}>
       <Link to="/">

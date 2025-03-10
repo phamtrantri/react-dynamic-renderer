@@ -12,13 +12,3 @@
   height: 48px;
   border-radius: 80px;
 }
-.exportBtn {
-  background-color: var(--bg-color-black);
-  color: var(--text-color-white);
-  padding: 4px 32px;
-  border-radius: 8px;
-  font-size: 14px;
-}
-.exportBtn:active {
-  opacity: 0.7;
-}

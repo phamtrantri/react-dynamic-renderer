@@ -12,20 +12,8 @@ const Settings: React.FC<IProps> = ({ selectedNode, onUpdateNode }) => {
 
   useEffect(() => {
     if (selectedNode) {
-      const {
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        id: unusedId,
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        children: unUsedChildren,
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        name: unusedName,
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        type: unusedType,
-        // eslint-disable-next-line @typescript-eslint/no-unused-vars
-        value: unusedValue,
-        ...cssProps
-      } = selectedNode;
-
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { id, children, name, type, value, ...cssProps } = selectedNode;
       setCssText(JSON.stringify(cssProps, null, 2));
     } else {
       setCssText("{}");
